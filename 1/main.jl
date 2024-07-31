@@ -2,6 +2,7 @@ v = 1
 println(v)
 
 f(x) = x^2 + x + 1
+
 z = f(2)
 println(z)
 
@@ -11,7 +12,6 @@ function fx(x, a, b, c)
 end
 
 z = fx(1,2,3,4)
-
 println(z)
 
 function zeros(a,b,c)
@@ -27,6 +27,5 @@ function zeros(a,b,c)
   end
 end
 
-z = zeros(1,4,2)
-
+z = zeros(2,8,0)
 println(z)
