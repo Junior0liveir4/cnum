@@ -27,6 +27,6 @@ function zeros(a,b,c)
   end
 end
 
-z = zeros(1,4,2)
+z = zeros(1,4,0)
 
 println(z)
