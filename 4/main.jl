@@ -13,7 +13,6 @@ error = 10^-8
 r = fixedpoint(-1.8, g, error)
 println(r)
 
-
 #Exercício 3.4.1
 function newtonmethod(a, f, df, error)
   x = a
