@@ -29,3 +29,7 @@ end
 
 z = zeros(2,8,0)
 println(z)
+
+z = zeros(1,4,0)
+
+println(z)
