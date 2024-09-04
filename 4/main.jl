@@ -1,4 +1,5 @@
-#Exercício 3.3.1
+using .MathConstants:e
+
 function fixedpoint(a, g, error)
   x = g(a)
   while abs(x-a) > error
@@ -8,30 +9,18 @@ function fixedpoint(a, g, error)
   return x
 end
 
-g(x) = exp(x) - 2
+g(x) = log(x+2)
 error = 10^-8
+r = fixedpoint(1.1, g, error)
+println(r)
+
+# Exercício 3.3.1
+g(x) = e^x-2
 r = fixedpoint(-1.8, g, error)
 println(r)
 
-#Exercício 3.4.1
-function newtonmethod(a, f, df, error)
-  x = a
-  while abs(f(x)) > error
-    x = x - f(x)/df(x)
-  end
-  return x
-end
-
-f(x) = cos(x) - x^2
-df(x) = -sin(x) - 2*x
-a = 1
-error = 10^-5
-r = newtonmethod(a, f, df, error)
-println(r)
-
-#Exercício 3.6.3
 function secant(a, b, f, error)
-  g(a, b) = (a*f(b) - b*f(a))/(f(b) - f(a))
+  g(a, b) = (a*f(b)-b*f(a))/(f(b)-f(a))
   x = g(a, b)
   while abs(x-b) > error
     a = b
@@ -41,25 +30,31 @@ function secant(a, b, f, error)
   return x
 end
 
-f(x) = exp(-x^2) - 2*x
-a = 0.5
-b = 1
-error = 10^-5
-r = secant(a, b, f, error)
+f(x) = e^x-x-2
+r = secant(1.1, 1.2, f, error)
+println(r)
+r = secant(-1.8, -1.9, f, error)
 println(r)
 
-#Exercício 3.6.4
-I_r = 10^-12
-V_t = ((1.38*10^-23)*(300))/(1.60*10^-19)
-tol = exp(-3)
+# Exercicio 3.4.1
+error = 10^-5
+g(x) = x + ((cos(x)-(x^2))/(sin(x)+(2*x)))
+r = fixedpoint(1, g, error)
+println(r)
 
-R = 10^3
-V = 30
-f_newton(x) = R*(I_r*(exp(x/V_t) - 1)) + x - V
-df_newton(x) = R*(I_r/V_t)*(exp(x/V_t)) + 1
-x0 = 0.5
+# Exercicio 3.6.3
+f(x) = e^(-(x^2))-(2*x)
+r = secant(0.4, 0.5, f, error)
+println(r)
 
-x_newton = newtonmethod(x0, f_newton, df_newton, tol)
-x_secant = secant(x0, x_newton, f_newton, tol)
-println("Newton Method = ", x_newton)
-println("Secant Method = ", x_secant)
+# Exercicio 3.6.4
+Ir = 10^-12
+T = 300
+k = 1.380649*(10^-23)
+q = 1.60217663*(10^-19)
+I(x) = Ir*(e^((x*q)/(k*T)) - 1)
+dI(x) = ((Ir*q)/(k*T))*e^((x*q)/(k*T))
+g(x,V,R) = R*I(x) + x - V
+dg(x,R) = R*dI(x) + 1
+d(x,R,f) = x - (f(x)/dg(x,R)) 
+error = 10^-3
