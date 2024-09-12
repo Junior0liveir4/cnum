@@ -16,7 +16,7 @@ function bissection(a, b, f, tol)
   return x
 end
 
-function seidel(A, B, k; error=1e-10, max_iter=1000)
+function seidel(A, B, k; error, max_iter)
   n = length(B)
   x = copy(k)
   for k in 1:max_iter
@@ -109,12 +109,14 @@ println("Resposta aproximada utilizando o método da bissecção: b = ", rad2deg
 #Obtenha as tensões nominais de cada reator.
 
 A = [17.0 -2.0 -3.0;
-   -5.0 21.0 -2.0;
-   -5.0 -5.0 22.0]
+     -5.0 21.0 -2.0;
+     -5.0 -5.0 22.0]
 B = [500.0, 200.0, 30.0]
 
 k = [0.0, 0.0, 0.0]
-resposta = seidel(A, B, k; error=1e-10, max_iter=1000)
+error = 1e-10
+max_iter = 1000
+resposta = seidel(A, B, k; error, max_iter)
 println("Questão 4")
 println("Resposta aproximada utilizando o método de Seidel: R1 = ", resposta[1], " R2 = ", resposta[2], " R3 = ", resposta[3], "\n")
 
@@ -122,14 +124,16 @@ println("Resposta aproximada utilizando o método de Seidel: R1 = ", resposta[1]
 #Determine o valor da corrente no resistor R3, sabendo que V1 = V2 = 100 V e R1 = R2 = R3 = 10 Ω.
 
 A = [20.0 10.0;
-   10.0 20.0]
+     10.0 20.0]
 B = [100.0, 100.0]
 
 k = [0.0, 0.0]
-resposta = seidel(A, B, k; error=1e-10, max_iter=1000)
+err = 1e-10
+max_iter = 1000
+resposta = seidel(A, B, k; error, max_iter)
 I1, I2 = resposta
 I3 = I1 + I2
-print("Questão 5")
+println("Questão 5")
 println("A corrente no resistor R3 é aproximadamente: I3 = ", I3, " A \n")
 
 #Exercício 6
