@@ -128,7 +128,7 @@ A = [20.0 10.0;
 B = [100.0, 100.0]
 
 k = [0.0, 0.0]
-err = 1e-10
+error = 1e-10
 max_iter = 1000
 resposta = seidel(A, B, k; error, max_iter)
 I1, I2 = resposta
@@ -140,7 +140,20 @@ println("A corrente no resistor R3 é aproximadamente: I3 = ", I3, " A \n")
 #Calcule as tensões para os nós, tendo por referência o nó 6. O circuito pode ser equacionado da seguinte maneira:
 #{I} = [Y] {V}
 
+A = [
+  6 -3 -3 0 0; 
+  -3 6 0 -3 0; 
+  -3 0 6 -1 -2; 
+  0 -3 -1 5 0; 
+  0 0 -2 0 3]
+B = [0; 6; 0; 2; -3]
 
+k = [0.0, 0.0, 0.0, 0.0, 0.0]
+error_vl = 1e-10
+max_iter = 1000
+resposta = seidel(A, B, k; error, max_iter)
+println("Questão 6")
+println("Resposta aproximada utilizando o método de Gauss-Seidel: V1 = ", resposta[1], " V2 = ", resposta[2], " V3 = ", resposta[3], " V4 = ", resposta[4], " V5 = ", resposta[5], "\n")
 
 #Exercício 7
 #Num sistema de energia solar, um vetor de equilíbrio energético E, na placa absorvente e na placa de vidro, segue o seguinte sistema de equações não lineares nas temperaturas (K/m²) absolutas da placa absorvente (T1) e da placa de vidro (T2):
