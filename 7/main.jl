@@ -2,6 +2,8 @@ using SpecialFunctions
 using LinearAlgebra
 #Trabalho de Cálculo Numérico
 #Aluno: Junior Guimarães de Oliveira
+#Aluno: Eduarda Cipriano
+#Aluno: Miguel Grigorio
 
 function bissection(a, b, f, tol)
   x = (a+b)/2
