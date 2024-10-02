@@ -37,7 +37,7 @@ O método da bisseção explora o fato de que uma função contínua deverá ter
 
 Ponto fixo de uma função é quando o valor do domínio corresponde ao mesmo valor da imagem. Dessa forma, o método consiste em repetir sucessivamente uma função de interação até se encontrar o ponto fixo, que corresponderá ao zero da função original. O método de Newton-Raphson utiliza-se do método do ponto fixo por meio da equação da reta tangente (derivada) da função. O método da secante é uma variação de Newton-Raphson, em que a sequência de raízes de linhas secantes é usada para aproximar o valor do ponto fixo.
 
-### Iteração de ponto fixo
++ ### Iteração de ponto fixo
 
 https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/sdeduv-iteracao_de_ponto_fixo.html
 
@@ -47,7 +47,7 @@ Nesta seção, discutimos a abordagem da iteração do ponto fixo para a soluç�
 
 ![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/ponto%20fixo.PNG)
 
-### Método de Newton-Raphson
++ ### Método de Newton-Raphson
 
 https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/sdeduv-metodo_de_newton-raphson.html
 
@@ -57,7 +57,7 @@ Nesta seção, apresentamos o método de Newton-Raphson para calcular o zero de 
 
 ![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/newton-raphson.PNG)
 
-### Método das Secantes
++ ### Método das Secantes
 
 https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/sdeduv-metodo_das_secantes.html
 
