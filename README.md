@@ -73,4 +73,32 @@ O método de Gauss é um escalonamento de sucessivas operações elementares num
 
 https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/sdsl.html
 
++ **Exercícios**
 
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/4.7.2.png)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/4.7.5.png)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/4.9.1.png)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/4.9.2.png)
+
+## 6 - Resolução de Sistemas não Lineares
+
+Para os sistemas não lineares a demonstração da unicidade de zeros é limitada por soluções analíticas, sendo usado o método iterativo de Newton-Raphson adaptado aos sistemas de equações, envolvendo aproximações iniciais, cálculo da matriz do Jacobiano e critério de parada.
+
+https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/sdsdenl.html
+
++ **Exercícios**
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/5.1.2.png)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/5.1.5.png)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/5.1.10.png)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/5.1.12.png)
+
+## 7 - Trabalho 1
+
+Em dupla ou trio, faça de acordo com a especificação do trabalho, usando os conceitos de método da bisseção, métodos de ponto fixo, métodos de Gauss e resolução de sistemas não lineares.
