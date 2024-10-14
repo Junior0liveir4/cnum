@@ -103,7 +103,7 @@ https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/sdsdenl.html
 
 Em dupla ou trio, faça de acordo com a especificação do trabalho, usando os conceitos de método da bisseção, métodos de ponto fixo, métodos de Gauss e resolução de sistemas não lineares.
 
-## 7 - Interpolação
+## 8 - Interpolação
 
 O problema consiste em encontrar alguma função que satisfaça determinados domínios e contradomínios. A interpolação polinomial é o método para encontrar, a partir de contradomínios reais, o polinômio que os satisfazem.
 
