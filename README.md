@@ -112,3 +112,12 @@ https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/i1.html
 + **Exercícios**
 
 ![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/interpolacao.PNG)
+
+## 9 - Ajuste de Curvas
+
+O problema consiste em encontrar uma função que melhor se ajusta aos pontos dados, não necessariamente que os interpola, geralmente usando o método dos mínimos quadrados (em estatística, a técnica é mais conhecida como regressão).
+
+https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/adc.html
+
++ **Exercícios**
+  
