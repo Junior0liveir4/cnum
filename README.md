@@ -120,4 +120,7 @@ O problema consiste em encontrar uma função que melhor se ajusta aos pontos da
 https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/adc.html
 
 + **Exercícios**
-  
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/ajuste%20de%20curvas%20-%201.PNG)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/ajuste%20de%20curvas%20-%202.PNG)
