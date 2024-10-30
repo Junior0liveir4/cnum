@@ -145,3 +145,6 @@ https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/in.html
 
 + **Exercícios**
 
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/9.2.1.png)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/9.2.3.png)
