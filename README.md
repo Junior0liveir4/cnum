@@ -124,3 +124,12 @@ https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/adc.html
 ![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/ajuste%20de%20curvas%20-%201.PNG)
 
 ![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/ajuste%20de%20curvas%20-%202.PNG)
+
+## 10 - Derivação Numérica
+
+O problema consiste em encontrar estratégias numéricas para aproximação de derivadas de funções reais, em específico, as aproximações por diferenças finitas.
+
+https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/dn-diferencas_finitas.html
+
++ **Exercícios**
+
