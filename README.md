@@ -133,3 +133,6 @@ https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/dn-diferencas_finitas.html
 
 + **Exercícios**
 
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/8.1.1.png)
+
+![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/8.1.4.png)
