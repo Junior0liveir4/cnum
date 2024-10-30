@@ -38,3 +38,6 @@ println(r)
 
 r = iw(f, in, 0, 1, 0.5)
 println(r)
+
+# Exercício 9.2.1
+# Exercício 9.2.3
