@@ -136,3 +136,12 @@ https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/dn-diferencas_finitas.html
 ![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/8.1.1.png)
 
 ![print-appGallery](https://github.com/Junior0liveir4/cnum/blob/main/Exerc%C3%ADcios/8.1.4.png)
+
+## 10 - Integração Numérica
+
+O problema consiste em encontrar estratégias numéricas para aproximação de integrações de funções reais, em específico, regras de quadratura.
+
+https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/in.html
+
++ **Exercícios**
+
