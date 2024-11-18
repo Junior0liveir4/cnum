@@ -1,5 +1,5 @@
 using LinearAlgebra
-#Trabalho de Cálculo Numérico
+#Trabalho 2 de Cálculo Numérico
 #Aluno: Junior Guimarães de Oliveira
 #Aluno: Eduarda Cipriano
 #Aluno: Miguel Grigorio
